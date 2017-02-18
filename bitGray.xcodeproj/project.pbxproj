@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99457446F589AD6F2A7A2DAD /* libPods-bitGray.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C3081ABB164FF644B3DEF38 /* libPods-bitGray.a */; };
+		FFA6AAE51E54F10800FCF9F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA6AAE41E54F10800FCF9F6 /* main.m */; };
+		FFA6AAE81E54F10800FCF9F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA6AAE71E54F10800FCF9F6 /* AppDelegate.m */; };
+		FFA6AAEB1E54F10800FCF9F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA6AAEA1E54F10800FCF9F6 /* ViewController.m */; };
+		FFA6AAEE1E54F10800FCF9F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFA6AAEC1E54F10800FCF9F6 /* Main.storyboard */; };
+		FFA6AAF01E54F10800FCF9F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFA6AAEF1E54F10800FCF9F6 /* Assets.xcassets */; };
+		FFA6AAF31E54F10800FCF9F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFA6AAF11E54F10800FCF9F6 /* LaunchScreen.storyboard */; };
+		FFA6AAFE1E54F10800FCF9F6 /* bitGrayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA6AAFD1E54F10800FCF9F6 /* bitGrayTests.m */; };
+		FFA6AB091E54F10800FCF9F6 /* bitGrayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA6AB081E54F10800FCF9F6 /* bitGrayUITests.m */; };
+		FFE03BB51E56273B00B472BB /* Default-736h.png in Resources */ = {isa = PBXBuildFile; fileRef = FFE03BB41E56273B00B472BB /* Default-736h.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFA6AAFA1E54F10800FCF9F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFA6AAD81E54F10700FCF9F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFA6AADF1E54F10800FCF9F6;
+			remoteInfo = bitGray;
+		};
+		FFA6AB051E54F10800FCF9F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFA6AAD81E54F10700FCF9F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFA6AADF1E54F10800FCF9F6;
+			remoteInfo = bitGray;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		361643CAE2979688E3B67B90 /* Pods-bitGray.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bitGray.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bitGray/Pods-bitGray.debug.xcconfig"; sourceTree = "<group>"; };
+		5C3081ABB164FF644B3DEF38 /* libPods-bitGray.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-bitGray.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89DD5A3E9B760500B8315EB9 /* Pods-bitGray.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bitGray.release.xcconfig"; path = "Pods/Target Support Files/Pods-bitGray/Pods-bitGray.release.xcconfig"; sourceTree = "<group>"; };
+		FFA6AAE01E54F10800FCF9F6 /* bitGray.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bitGray.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFA6AAE41E54F10800FCF9F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FFA6AAE61E54F10800FCF9F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FFA6AAE71E54F10800FCF9F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FFA6AAE91E54F10800FCF9F6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FFA6AAEA1E54F10800FCF9F6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FFA6AAED1E54F10800FCF9F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFA6AAEF1E54F10800FCF9F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFA6AAF21E54F10800FCF9F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFA6AAF41E54F10800FCF9F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFA6AAF91E54F10800FCF9F6 /* bitGrayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bitGrayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFA6AAFD1E54F10800FCF9F6 /* bitGrayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bitGrayTests.m; sourceTree = "<group>"; };
+		FFA6AAFF1E54F10800FCF9F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFA6AB041E54F10800FCF9F6 /* bitGrayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bitGrayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFA6AB081E54F10800FCF9F6 /* bitGrayUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bitGrayUITests.m; sourceTree = "<group>"; };
+		FFA6AB0A1E54F10800FCF9F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFE03BB41E56273B00B472BB /* Default-736h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFA6AADD1E54F10800FCF9F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99457446F589AD6F2A7A2DAD /* libPods-bitGray.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFA6AAF61E54F10800FCF9F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFA6AB011E54F10800FCF9F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CF25986B900FCC45C90FF75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C3081ABB164FF644B3DEF38 /* libPods-bitGray.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4343DF9315D475A1D119C5C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				361643CAE2979688E3B67B90 /* Pods-bitGray.debug.xcconfig */,
+				89DD5A3E9B760500B8315EB9 /* Pods-bitGray.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FFA6AAD71E54F10700FCF9F6 = {
+			isa = PBXGroup;
+			children = (
+				FFA6AAE21E54F10800FCF9F6 /* bitGray */,
+				FFA6AAFC1E54F10800FCF9F6 /* bitGrayTests */,
+				FFA6AB071E54F10800FCF9F6 /* bitGrayUITests */,
+				FFA6AAE11E54F10800FCF9F6 /* Products */,
+				D4343DF9315D475A1D119C5C /* Pods */,
+				5CF25986B900FCC45C90FF75 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FFA6AAE11E54F10800FCF9F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFA6AAE01E54F10800FCF9F6 /* bitGray.app */,
+				FFA6AAF91E54F10800FCF9F6 /* bitGrayTests.xctest */,
+				FFA6AB041E54F10800FCF9F6 /* bitGrayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFA6AAE21E54F10800FCF9F6 /* bitGray */ = {
+			isa = PBXGroup;
+			children = (
+				FFE03BB41E56273B00B472BB /* Default-736h.png */,
+				FFA6AAE61E54F10800FCF9F6 /* AppDelegate.h */,
+				FFA6AAE71E54F10800FCF9F6 /* AppDelegate.m */,
+				FFA6AAE91E54F10800FCF9F6 /* ViewController.h */,
+				FFA6AAEA1E54F10800FCF9F6 /* ViewController.m */,
+				FFA6AAEC1E54F10800FCF9F6 /* Main.storyboard */,
+				FFA6AAEF1E54F10800FCF9F6 /* Assets.xcassets */,
+				FFA6AAF11E54F10800FCF9F6 /* LaunchScreen.storyboard */,
+				FFA6AAF41E54F10800FCF9F6 /* Info.plist */,
+				FFA6AAE31E54F10800FCF9F6 /* Supporting Files */,
+			);
+			path = bitGray;
+			sourceTree = "<group>";
+		};
+		FFA6AAE31E54F10800FCF9F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFA6AAE41E54F10800FCF9F6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FFA6AAFC1E54F10800FCF9F6 /* bitGrayTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFA6AAFD1E54F10800FCF9F6 /* bitGrayTests.m */,
+				FFA6AAFF1E54F10800FCF9F6 /* Info.plist */,
+			);
+			path = bitGrayTests;
+			sourceTree = "<group>";
+		};
+		FFA6AB071E54F10800FCF9F6 /* bitGrayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FFA6AB081E54F10800FCF9F6 /* bitGrayUITests.m */,
+				FFA6AB0A1E54F10800FCF9F6 /* Info.plist */,
+			);
+			path = bitGrayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFA6AADF1E54F10800FCF9F6 /* bitGray */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFA6AB0D1E54F10800FCF9F6 /* Build configuration list for PBXNativeTarget "bitGray" */;
+			buildPhases = (
+				38D20CD6AEC6AE21798B199F /* [CP] Check Pods Manifest.lock */,
+				FFA6AADC1E54F10800FCF9F6 /* Sources */,
+				FFA6AADD1E54F10800FCF9F6 /* Frameworks */,
+				FFA6AADE1E54F10800FCF9F6 /* Resources */,
+				44648F2322E5C2C6712A4183 /* [CP] Embed Pods Frameworks */,
+				220E6255858E75552C9C5828 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bitGray;
+			productName = bitGray;
+			productReference = FFA6AAE01E54F10800FCF9F6 /* bitGray.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFA6AAF81E54F10800FCF9F6 /* bitGrayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFA6AB101E54F10800FCF9F6 /* Build configuration list for PBXNativeTarget "bitGrayTests" */;
+			buildPhases = (
+				FFA6AAF51E54F10800FCF9F6 /* Sources */,
+				FFA6AAF61E54F10800FCF9F6 /* Frameworks */,
+				FFA6AAF71E54F10800FCF9F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFA6AAFB1E54F10800FCF9F6 /* PBXTargetDependency */,
+			);
+			name = bitGrayTests;
+			productName = bitGrayTests;
+			productReference = FFA6AAF91E54F10800FCF9F6 /* bitGrayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FFA6AB031E54F10800FCF9F6 /* bitGrayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFA6AB131E54F10800FCF9F6 /* Build configuration list for PBXNativeTarget "bitGrayUITests" */;
+			buildPhases = (
+				FFA6AB001E54F10800FCF9F6 /* Sources */,
+				FFA6AB011E54F10800FCF9F6 /* Frameworks */,
+				FFA6AB021E54F10800FCF9F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFA6AB061E54F10800FCF9F6 /* PBXTargetDependency */,
+			);
+			name = bitGrayUITests;
+			productName = bitGrayUITests;
+			productReference = FFA6AB041E54F10800FCF9F6 /* bitGrayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFA6AAD81E54F10700FCF9F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Diego Diaz Pinilla";
+				TargetAttributes = {
+					FFA6AADF1E54F10800FCF9F6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = F3PPN8JK28;
+						ProvisioningStyle = Automatic;
+					};
+					FFA6AAF81E54F10800FCF9F6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FFA6AADF1E54F10800FCF9F6;
+					};
+					FFA6AB031E54F10800FCF9F6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FFA6AADF1E54F10800FCF9F6;
+					};
+				};
+			};
+			buildConfigurationList = FFA6AADB1E54F10700FCF9F6 /* Build configuration list for PBXProject "bitGray" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFA6AAD71E54F10700FCF9F6;
+			productRefGroup = FFA6AAE11E54F10800FCF9F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFA6AADF1E54F10800FCF9F6 /* bitGray */,
+				FFA6AAF81E54F10800FCF9F6 /* bitGrayTests */,
+				FFA6AB031E54F10800FCF9F6 /* bitGrayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFA6AADE1E54F10800FCF9F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFA6AAF31E54F10800FCF9F6 /* LaunchScreen.storyboard in Resources */,
+				FFE03BB51E56273B00B472BB /* Default-736h.png in Resources */,
+				FFA6AAF01E54F10800FCF9F6 /* Assets.xcassets in Resources */,
+				FFA6AAEE1E54F10800FCF9F6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFA6AAF71E54F10800FCF9F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFA6AB021E54F10800FCF9F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		220E6255858E75552C9C5828 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bitGray/Pods-bitGray-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38D20CD6AEC6AE21798B199F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		44648F2322E5C2C6712A4183 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bitGray/Pods-bitGray-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFA6AADC1E54F10800FCF9F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFA6AAEB1E54F10800FCF9F6 /* ViewController.m in Sources */,
+				FFA6AAE81E54F10800FCF9F6 /* AppDelegate.m in Sources */,
+				FFA6AAE51E54F10800FCF9F6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFA6AAF51E54F10800FCF9F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFA6AAFE1E54F10800FCF9F6 /* bitGrayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFA6AB001E54F10800FCF9F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFA6AB091E54F10800FCF9F6 /* bitGrayUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFA6AAFB1E54F10800FCF9F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFA6AADF1E54F10800FCF9F6 /* bitGray */;
+			targetProxy = FFA6AAFA1E54F10800FCF9F6 /* PBXContainerItemProxy */;
+		};
+		FFA6AB061E54F10800FCF9F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFA6AADF1E54F10800FCF9F6 /* bitGray */;
+			targetProxy = FFA6AB051E54F10800FCF9F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FFA6AAEC1E54F10800FCF9F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFA6AAED1E54F10800FCF9F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFA6AAF11E54F10800FCF9F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFA6AAF21E54F10800FCF9F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFA6AB0B1E54F10800FCF9F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFA6AB0C1E54F10800FCF9F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFA6AB0E1E54F10800FCF9F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 361643CAE2979688E3B67B90 /* Pods-bitGray.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = F3PPN8JK28;
+				INFOPLIST_FILE = bitGray/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.diegodiaz.bitGray;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FFA6AB0F1E54F10800FCF9F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89DD5A3E9B760500B8315EB9 /* Pods-bitGray.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = F3PPN8JK28;
+				INFOPLIST_FILE = bitGray/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.diegodiaz.bitGray;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FFA6AB111E54F10800FCF9F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = bitGrayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.diegodiaz.bitGrayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bitGray.app/bitGray";
+			};
+			name = Debug;
+		};
+		FFA6AB121E54F10800FCF9F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = bitGrayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.diegodiaz.bitGrayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bitGray.app/bitGray";
+			};
+			name = Release;
+		};
+		FFA6AB141E54F10800FCF9F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = bitGrayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.diegodiaz.bitGrayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = bitGray;
+			};
+			name = Debug;
+		};
+		FFA6AB151E54F10800FCF9F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = bitGrayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.diegodiaz.bitGrayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = bitGray;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFA6AADB1E54F10700FCF9F6 /* Build configuration list for PBXProject "bitGray" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFA6AB0B1E54F10800FCF9F6 /* Debug */,
+				FFA6AB0C1E54F10800FCF9F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFA6AB0D1E54F10800FCF9F6 /* Build configuration list for PBXNativeTarget "bitGray" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFA6AB0E1E54F10800FCF9F6 /* Debug */,
+				FFA6AB0F1E54F10800FCF9F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFA6AB101E54F10800FCF9F6 /* Build configuration list for PBXNativeTarget "bitGrayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFA6AB111E54F10800FCF9F6 /* Debug */,
+				FFA6AB121E54F10800FCF9F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFA6AB131E54F10800FCF9F6 /* Build configuration list for PBXNativeTarget "bitGrayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFA6AB141E54F10800FCF9F6 /* Debug */,
+				FFA6AB151E54F10800FCF9F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFA6AAD81E54F10700FCF9F6 /* Project object */;
+}

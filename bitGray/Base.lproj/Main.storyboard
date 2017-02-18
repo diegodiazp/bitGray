@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2659" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DxH-P4-f14">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="617"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CMk-On-hRV">
+                                <rect key="frame" x="0.0" y="617" width="124" height="50"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="KDK-dd-uj2"/>
+                                    <constraint firstAttribute="width" constant="124" id="Mt5-Hg-0Tk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
+                                <state key="normal" title="Search user">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="searchUser:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lw6-2m-1MP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ai7-Oh-GR3">
+                                <rect key="frame" x="125" y="617" width="125" height="50"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
+                                <state key="normal" title="Near user">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="searchNearUser:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uhR-si-Uxi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iDp-Ns-wxS">
+                                <rect key="frame" x="251" y="617" width="124" height="50"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
+                                <state key="normal" title="Far user">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="searchFarUser:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bGs-Xv-GZh"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ai7-Oh-GR3" firstAttribute="baseline" secondItem="iDp-Ns-wxS" secondAttribute="firstBaseline" id="5WF-Hs-B5a"/>
+                            <constraint firstItem="ai7-Oh-GR3" firstAttribute="baseline" secondItem="iDp-Ns-wxS" secondAttribute="baseline" id="7Yg-dv-pWc"/>
+                            <constraint firstItem="DxH-P4-f14" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7mJ-Mt-tmg"/>
+                            <constraint firstAttribute="trailing" secondItem="iDp-Ns-wxS" secondAttribute="trailing" id="8kM-U8-hOT"/>
+                            <constraint firstItem="ai7-Oh-GR3" firstAttribute="baseline" secondItem="CMk-On-hRV" secondAttribute="firstBaseline" id="ACY-mA-1G9"/>
+                            <constraint firstItem="iDp-Ns-wxS" firstAttribute="top" secondItem="DxH-P4-f14" secondAttribute="bottom" id="HJU-Zc-ota"/>
+                            <constraint firstItem="CMk-On-hRV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="SmI-Ho-6No"/>
+                            <constraint firstItem="CMk-On-hRV" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="VO5-s7-n6g"/>
+                            <constraint firstItem="ai7-Oh-GR3" firstAttribute="leading" secondItem="CMk-On-hRV" secondAttribute="trailing" constant="1" id="VY5-tN-4C7"/>
+                            <constraint firstItem="DxH-P4-f14" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="WxS-e7-LaY"/>
+                            <constraint firstItem="DxH-P4-f14" firstAttribute="centerX" secondItem="ai7-Oh-GR3" secondAttribute="centerX" id="XOG-DH-Et7"/>
+                            <constraint firstItem="iDp-Ns-wxS" firstAttribute="leading" secondItem="ai7-Oh-GR3" secondAttribute="trailing" constant="1" id="bg7-ok-dPC"/>
+                            <constraint firstItem="iDp-Ns-wxS" firstAttribute="leading" secondItem="ai7-Oh-GR3" secondAttribute="trailing" constant="1" id="ci0-Fp-1Ad"/>
+                            <constraint firstItem="ai7-Oh-GR3" firstAttribute="top" secondItem="DxH-P4-f14" secondAttribute="bottom" id="eFn-WX-jWs"/>
+                            <constraint firstItem="DxH-P4-f14" firstAttribute="leading" secondItem="CMk-On-hRV" secondAttribute="leading" id="eQy-TM-pg5"/>
+                            <constraint firstItem="CMk-On-hRV" firstAttribute="baseline" secondItem="ai7-Oh-GR3" secondAttribute="firstBaseline" id="st6-gG-aJ5"/>
+                            <constraint firstItem="ai7-Oh-GR3" firstAttribute="leading" secondItem="CMk-On-hRV" secondAttribute="trailing" constant="1" id="xmr-bc-uGm"/>
+                            <constraint firstItem="CMk-On-hRV" firstAttribute="top" secondItem="DxH-P4-f14" secondAttribute="bottom" id="z6P-Da-B3U"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="btnFarUser" destination="iDp-Ns-wxS" id="DJl-y2-bhF"/>
+                        <outlet property="btnNearUser" destination="ai7-Oh-GR3" id="1nE-cq-kKz"/>
+                        <outlet property="btnSearchUser" destination="CMk-On-hRV" id="RTx-e1-Zca"/>
+                        <outlet property="mapView" destination="DxH-P4-f14" id="KPE-26-fV3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+</document>
